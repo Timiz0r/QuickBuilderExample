@@ -25,6 +25,4 @@ public:
 
 		Incrementer&& Build();
 	};
-
-	friend Incrementer&& Incrementer::Builder::Build();
 };
