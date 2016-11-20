@@ -5,6 +5,7 @@ class Incrementer
 private:
 	int value;
 	int increment;
+	Incrementer();
 
 public:
 	int Increment();

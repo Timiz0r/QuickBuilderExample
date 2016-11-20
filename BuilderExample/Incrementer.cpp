@@ -1,6 +1,11 @@
 #include <utility>
 #include "Incrementer.h"
 
+Incrementer::Incrementer() : increment{ 0 }, value{ 0 }
+{
+
+}
+
 //returns old value
 int Incrementer::Increment()
 {
